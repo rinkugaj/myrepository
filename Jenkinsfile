@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('FirstPipeline') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World from fusion software'
             }
         }
     }
